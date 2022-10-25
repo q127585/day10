@@ -5,7 +5,7 @@ import App from './App'
 import { $http } from '@escook/request-miniprogram'
 import store from 'store/index.js'
 uni.$http = $http
-$http.baseUrl = 'https://www.showdoc.com.cn/p/'
+$http.baseUrl = 'https://api.it120.cc/small4/'
 
 $http.beforeRequest = function (options) {  
     uni.showLoading({
